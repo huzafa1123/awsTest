@@ -1,0 +1,20 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "api": {
+      "test": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    },
+    "function": {
+      "testFuction": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

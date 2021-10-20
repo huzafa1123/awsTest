@@ -1,0 +1,19 @@
+type Todo
+  @model
+  @aws_api_key
+  @auth(
+    rules: [
+      {
+        allow: public
+        provider: apiKey
+        operations: [read, update, delete, create]
+      }
+    ]
+  ) {
+  id: ID!
+  name: String!
+  description: String
+}
+type Query {
+  echo: String @function(name: "testFuction-${env}")
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-amplify": "^4.3.2"
+  },
+  "devDependencies": {}
+}

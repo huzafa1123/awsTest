@@ -1,0 +1,20 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "auth": {
+      "jointpool4a40afe5": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    },
+    "api": {
+      "test": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    }
+  }
+}

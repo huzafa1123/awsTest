@@ -1,0 +1,43 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jointpool-dev-153607-authRole",
+      "UnauthRoleArn": "arn:aws:iam::584837345214:role/amplify-jointpool-dev-153607-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::584837345214:role/amplify-jointpool-dev-153607-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-jointpool-dev-153607-deployment",
+      "UnauthRoleName": "amplify-jointpool-dev-153607-unauthRole",
+      "StackName": "amplify-jointpool-dev-153607",
+      "StackId": "arn:aws:cloudformation:us-east-2:584837345214:stack/amplify-jointpool-dev-153607/bed5cee0-1ac7-11ec-b726-0a65106a3574",
+      "AmplifyAppId": "d1c6auu6huhqko"
+    },
+    "categories": {
+      "auth": {
+        "jointpool4a40afe5": {
+          "userPoolId": "us-east-2_MOQgbii1F",
+          "userPoolName": "techplannerapia349b563_userpool_a349b563-dev",
+          "webClientId": "5r73i4hbd8ieiiiihb4tjdsav0",
+          "nativeClientId": "cj63bgj6ms3gujcibkgfk19q8"
+        }
+      },
+      "function": {
+        "testFuction": {
+          "deploymentBucketName": "amplify-jointpool-dev-153607-deployment",
+          "s3Key": "amplify-builds/testFuction-70746e507372346e6963-build.zip"
+        },
+        "jointpoolshared": {
+          "deploymentBucketName": "amplify-jointpool-dev-153607-deployment",
+          "s3Key": "amplify-builds/jointpoolshared-LambdaLayerVersion9fdd486c-build.zip"
+        },
+        "jointpoollayere233babc": {
+          "deploymentBucketName": "amplify-jointpool-dev-153607-deployment",
+          "s3Key": "amplify-builds/jointpoollayere233babc-LambdaLayerVersion723a9444-build.zip"
+        },
+        "lambdatest2function": {
+          "deploymentBucketName": "amplify-jointpool-dev-153607-deployment",
+          "s3Key": "amplify-builds/lambdatest2function-78475974594c73747877-build.zip"
+        }
+      }
+    }
+  }
+}
